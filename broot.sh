@@ -9,3 +9,7 @@ if [ ! -f "/usr/share/keyrings/azlux-archive-keyring.gpg" ]; then
     echo "Downloading the azlux-archive-keyring.gpg file..."
     sudo wget -O /usr/share/keyrings/azlux-archive-keyring.gpg https://azlux.fr/repo.gpg
 fi
+
+apt update
+apt upgrade
+apt install broot
