@@ -12,5 +12,3 @@ if ! grep -q "export PS1=.*parse_git_branch.*" ~/.bashrc; then
   echo 'export PS1="\[\033[38;5;10m\]\u@\h\[\033[00m\]:\[\033[38;5;14m\]\w\[\033[31m\]$(parse_git_branch)\[\033[00m\] $ "' >> ~/.bashrc
 fi
 
-source ~/.bashrc
-
